@@ -1,0 +1,42 @@
+# ------------------------------------
+# 1. DEPENDENCIES & BUILD ARTIFACTS (MUST HAVE)
+# ------------------------------------
+
+# Node modules directory (Huge, installed by 'npm install')
+/node_modules
+
+# Build output directories (Created when you build your project)
+/dist
+/build
+/out
+/coverage
+
+# Vite-specific cache files
+.vite/
+.vite-ccache/
+/temp
+
+# ------------------------------------
+# 2. SENSITIVE FILES (CRITICAL SECURITY)
+# ------------------------------------
+
+# Environment Variables (YOUR SECRETS GO HERE: JWT_SECRET, DB_PASS, etc.)
+.env
+.env.local
+.env.*
+
+# ------------------------------------
+# 3. OPERATING SYSTEM & EDITOR FILES (Local Preference)
+# ------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code specific files (You may want to keep settings.json if shared)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
